@@ -62,19 +62,13 @@ public class NestedThesisExamAttendance30 {
 }
 ```
 
-### 2.1.2 Java Program Code Screenshot
-
-> **Insert the screenshot of the Java program code here.**
->
-> `![Java Program Code - Experiment 1](images/percobaan1-code.png)`
-
-### 2.1.3 Running Results / Output Screenshot
+### 2.1.2 ### 2.1.3 Running Results / Output Screenshot
 
 > **Insert the screenshot of the program output here.**
 >
 > `![Output Experiment 1](images/percobaan1-output.png)`
 
-### 2.1.4 Answers to Questions / Reflection Questions
+### 2.1.3 Answers to Questions / Reflection Questions
 
 **Question 1:** What happens if the student answers "No" to the penalty-clearance question? Why?
 
@@ -133,25 +127,13 @@ public class LogicalOperatorWifiAttendance30 {
 }
 ```
 
-### 2.2.2 Java Program Code Screenshot
-
-> **Insert the screenshot of the Java program code here.**
->
-> `![Java Program Code - Experiment 2](images/percobaan2-code.png)`
-
-### 2.2.3 Running Results / Output Screenshot
+### 2.2.2 Running Results / Output Screenshot
 
 > **Insert the screenshots of the test results here.**
 >
 > `![Output Experiment 2 - Test 1](images/percobaan2-output-test1.png)`
->
-> `![Output Experiment 2 - Test 2](images/percobaan2-output-test2.png)`
->
-> `![Output Experiment 2 - Test 3](images/percobaan2-output-test3.png)`
->
-> `![Output Experiment 2 - Test 4](images/percobaan2-output-test4.png)`
 
-### 2.2.4 Answers to Questions / Reflection Questions
+### 2.2.3 Answers to Questions / Reflection Questions
 
 **Question 1:** Explain the function of the `||`, `&&`, and `!` operators in the condition above.
 
@@ -218,25 +200,13 @@ public class NestedLabAccessAttendance30 {
 }
 ```
 
-### 2.3.2 Java Program Code Screenshot
-
-> **Insert the screenshot of the Java program code here.**
->
-> `![Java Program Code - Experiment 3](images/percobaan3-code.png)`
-
-### 2.3.3 Running Results / Output Screenshot
+### 2.3.2 Running Results / Output Screenshot
 
 > **Insert the screenshots of the four required test results here.**
 >
 > `![Output Experiment 3 - Test 1](images/percobaan3-output-test1.png)`
->
-> `![Output Experiment 3 - Test 2](images/percobaan3-output-test2.png)`
->
-> `![Output Experiment 3 - Test 3](images/percobaan3-output-test3.png)`
->
-> `![Output Experiment 3 - Test 4](images/percobaan3-output-test4.png)`
 
-### 2.3.4 Answers to Questions / Reflection Questions
+### 2.3.3 Answers to Questions / Reflection Questions
 
 **Question 1:** Why is the check `hasLecturerPermit || isLabAssistant` placed inside the first IF?
 
@@ -401,13 +371,7 @@ public class Task2AssistantSelectionAttendance30 {
 }
 ```
 
-### 3.2.2 Java Program Code Screenshot
-
-> **Insert the screenshot of the Java program code here.**
->
-> `![Java Program Code - Task 2](images/task2-code.png)`
-
-### 3.2.3 Running Results / Output Screenshot
+### 3.2.2 Running Results / Output Screenshot
 
 > **Insert the screenshot of the program output here.**
 >
