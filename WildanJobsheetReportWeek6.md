@@ -27,37 +27,39 @@ A student wants to register for the thesis exam. The system first checks that th
 ### 2.1.1 Java Program Code
 
 ```java
+package Week5;
 import java.util.Scanner;
-
 public class NestedThesisExamAttendance30 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String message;
+    Scanner sc = new Scanner(System.in);
 
-        System.out.print("Has the student cleared all penalties? (Yes/No): ");
-        String noPenalty = sc.nextLine().trim();
+    //Variable
+    String message;
+    //input
+    System.out.print("Has the student cleared all penalties? (Yes/No): ");
+    String noPenalty = sc.nextLine().trim();
+    System.out.print("Enter the number of guidance sessions with Supervisor 1: ");
+    int guidanceCount1 = sc.nextInt();
+    System.out.print("Enter the number of guidance sessions with Supervisor 1: ");
+    int guidanceCount2 = sc.nextInt();
 
-        System.out.print("Enter the number of guidance sessions with Supervisor 1: ");
-        int guidanceCount1 = sc.nextInt();
-
-        System.out.print("Enter the number of guidance sessions with Supervisor 2: ");
-        int guidanceCount2 = sc.nextInt();
-
-        if (noPenalty.equalsIgnoreCase("Yes")) {
-            if (guidanceCount1 >= 8 && guidanceCount2 >= 4) {
-                message = "All requirements met. The student may register for the thesis exam";
-            } else if (guidanceCount1 < 8 && guidanceCount2 < 4) {
-                message = "Failed! Guidance sessions with Supervisor 1 are below 8 and Supervisor 2 are below 4";
-            } else if (guidanceCount1 < 8) {
-                message = "Failed! Guidance sessions with Supervisor 1 have not reached 8";
-            } else {
-                message = "Failed! Guidance sessions with Supervisor 2 have not reached 4";
-            }
-        } else {
-            message = "Failed! The student still has an outstanding penalty";
-        }
-
+    //output and procces
+    if (noPenalty.equalsIgnoreCase("Yes")) {
+    if (guidanceCount1 >= 8 && guidanceCount2 >= 4) {
+        message = "All requirements met. The student may register for the thesis exam";
+ }  else if (guidanceCount1 < 8 && guidanceCount2 < 4) {
+        message = "Failed! Guidance sessions with Supervisor 1 are below 8 and Supervisor 2 are below 4";
+ }  else if (guidanceCount1 < 8) {
+        message = "Failed! Guidance sessions with Supervisor 1 have not reached 8";
+ }  else {
+        message = "Failed! Guidance sessions with Supervisor 2 have not reached 4";
+ }
+ }   else {
+        message = "Failed! The student still has an outstanding penalty";
+ }
         System.out.println(message);
+        sc.close();
+
     }
 }
 ```
@@ -99,30 +101,33 @@ Campus WiFi may be used by students or lecturers whose accounts are not blocked.
 ### 2.2.1 Java Program Code
 
 ```java
+package Week5;
 import java.util.Scanner;
 
-public class LogicalOperatorWifiAttendance30 {
+public class LogicalOperatorWifiAttendanceNo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        //Variable
         boolean isStudent;
         boolean isLecturer;
         boolean isBlocked;
 
+        //Input
         System.out.print("Is the user a student? (true/false): ");
-        isStudent = sc.nextBoolean();
-
+            isStudent = sc.nextBoolean();
         System.out.print("Is the user a lecturer? (true/false): ");
-        isLecturer = sc.nextBoolean();
-
+            isLecturer = sc.nextBoolean();
         System.out.print("Is the account currently blocked? (true/false): ");
-        isBlocked = sc.nextBoolean();
+            isBlocked = sc.nextBoolean();
 
-        if ((isStudent || isLecturer) && !isBlocked) {
-            System.out.println("WiFi access granted");
-        } else {
-            System.out.println("WiFi access denied");
-        }
+        //output and process
+       if ((isStudent && isLecturer) && !isBlocked) {
+       System.out.println("WiFi access granted");
+}        else {
+       System.out.println("WiFi access denied");
+       sc.close();
+}
     }
 }
 ```
@@ -195,6 +200,7 @@ public class NestedLabAccessAttendance30 {
             }
         } else {
             System.out.println("Access denied: student status does not meet the requirement");
+            sc.close();
         }
     }
 }
@@ -304,6 +310,7 @@ public class Task1BookstoreDiscountAttendance30 {
         System.out.println("Discount rate   : " + (discountRate * 100) + "%");
         System.out.println("Discount amount : " + discountAmount);
         System.out.println("Total payment   : " + totalPayment);
+        sc.close();
     }
 }
 ```
@@ -366,6 +373,7 @@ public class Task2AssistantSelectionAttendance30 {
             }
         } else {
             System.out.println("Failed! The student is not active or is under academic sanction");
+            sc.close();
         }
     }
 }
