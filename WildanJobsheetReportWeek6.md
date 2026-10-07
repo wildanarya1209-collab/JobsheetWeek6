@@ -68,7 +68,7 @@ public class NestedThesisExamAttendance30 {
 
 > **Insert the screenshot of the program output here.**
 >
-> `![Output Experiment 1](images/percobaan1-output.png)`
+> `![image alt](image_url)`
 
 ### 2.1.3 Answers to Questions / Reflection Questions
 
@@ -136,7 +136,7 @@ public class LogicalOperatorWifiAttendanceNo {
 
 > **Insert the screenshots of the test results here.**
 >
-> `![Output Experiment 2 - Test 1](images/percobaan2-output-test1.png)`
+> `![image alt](image_url)`
 
 ### 2.2.3 Answers to Questions / Reflection Questions
 
@@ -210,7 +210,7 @@ public class NestedLabAccessAttendance30 {
 
 > **Insert the screenshots of the four required test results here.**
 >
-> `![Output Experiment 3 - Test 1](images/percobaan3-output-test1.png)`
+> `![image alt](image_url)`
 
 ### 2.3.3 Answers to Questions / Reflection Questions
 
@@ -319,7 +319,7 @@ public class Task1BookstoreDiscountAttendance30 {
 
 > **Insert one screenshot of the program output here.**
 >
-> `![Output Task 1](images/percobaan4-output.png)`
+> `![image alt](image_url)`
 
 ---
 
@@ -383,4 +383,4 @@ public class Task2AssistantSelectionAttendance30 {
 
 > **Insert the screenshot of the program output here.**
 >
-> `![Output Task 2](images/task2-output.png)`
+> `![image alt](image_url)`
