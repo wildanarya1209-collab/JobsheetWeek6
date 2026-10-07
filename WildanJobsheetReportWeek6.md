@@ -68,7 +68,7 @@ public class NestedThesisExamAttendance30 {
 
 > **Insert the screenshot of the program output here.**
 >
-> `![image alt](image_url)`
+> ![image alt](https://github.com/wildanarya1209-collab/JobsheetWeek6/blob/97d40b5fc20c85593cba830dbda7ad8d9ab9b622/Screenshot%202026-10-08%20003124.png)
 
 ### 2.1.3 Answers to Questions / Reflection Questions
 
@@ -136,7 +136,7 @@ public class LogicalOperatorWifiAttendanceNo {
 
 > **Insert the screenshots of the test results here.**
 >
-> `![image alt](image_url)`
+> ![image alt]([image_url](https://github.com/wildanarya1209-collab/JobsheetWeek6/blob/97d40b5fc20c85593cba830dbda7ad8d9ab9b622/Screenshot%202026-10-08%20005058.png))
 
 ### 2.2.3 Answers to Questions / Reflection Questions
 
@@ -210,7 +210,7 @@ public class NestedLabAccessAttendance30 {
 
 > **Insert the screenshots of the four required test results here.**
 >
-> `![image alt](image_url)`
+> ![image alt]([image_url](https://github.com/wildanarya1209-collab/JobsheetWeek6/blob/97d40b5fc20c85593cba830dbda7ad8d9ab9b622/Screenshot%202026-10-08%20010040.png))
 
 ### 2.3.3 Answers to Questions / Reflection Questions
 
@@ -319,7 +319,7 @@ public class Task1BookstoreDiscountAttendance30 {
 
 > **Insert one screenshot of the program output here.**
 >
-> `![image alt](image_url)`
+> ![image alt]([image_url](https://github.com/wildanarya1209-collab/JobsheetWeek6/blob/97d40b5fc20c85593cba830dbda7ad8d9ab9b622/Screenshot%202026-10-08%20010648.png))
 
 ---
 
@@ -383,4 +383,4 @@ public class Task2AssistantSelectionAttendance30 {
 
 > **Insert the screenshot of the program output here.**
 >
-> `![image alt](image_url)`
+> ![image alt]([image_url](https://github.com/wildanarya1209-collab/JobsheetWeek6/blob/97d40b5fc20c85593cba830dbda7ad8d9ab9b622/Screenshot%202026-10-08%20011258.png))
